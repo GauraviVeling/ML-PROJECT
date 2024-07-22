@@ -10,7 +10,6 @@ import seaborn as sns
 import plotly.express as px
 
 # Load dataset
-data_path = 'path_to_your_csv/purchase_history.csv'
 df = pd.read_csv('purchase_history.csv')
 
 # Preprocess the data
